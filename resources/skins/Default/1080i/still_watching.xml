@@ -79,17 +79,9 @@
                     <control type="label">
                         <height>30</height>
                         <font>font_title_small</font>
-                        <label>Next Episode in [COLOR $VAR[ColorHighlight]]$INFO[Player.TimeRemaining(ss),,][/COLOR] seconds...</label>
+                        <label>Are you [COLOR $VAR[ColorHighlight]still watching?[/COLOR] ...</label>
                         <textcolor>panel_fg_100</textcolor>
-                        <visible>!Integer.IsGreater(Player.TimeRemaining,59)</visible>
-                    </control>
-                    
-                    <control type="label">
-                        <height>30</height>
-                        <font>font_title_small</font>
-                        <label>Next Episode...</label>
-                        <textcolor>panel_fg_100</textcolor>
-                        <visible>Integer.IsGreater(Player.TimeRemaining,59)</visible>
+                        <visible>true</visible>
                     </control>
                     
                     <!-- Details -->
@@ -155,14 +147,23 @@
                         <include content="Object_IconicButton">
                             <param name="id" value="3001" />
                             <param name="groupid" value="9011" />
-                            <param name="label" value="Continue Watching" />
+                            <param name="label" value="Play next" />
                             <param name="icon" value="special://skin/extras/icons/play3.png" />
-                            <param name="visible" value="!Integer.IsGreater(Player.TimeRemaining,59)" />
+                            <param name="visible" value="false" />
                             <onclick>SendClick(3012)</onclick>
                         </include>
                         
                         <include content="Object_IconicButton">
                             <param name="id" value="3002" />
+                            <param name="groupid" value="9011" />
+                            <param name="label" value="Continue Watching" />
+                            <param name="icon" value="special://skin/extras/icons/eye.png" />
+                            <param name="visible" value="true" />
+                            <onclick>SendClick(3012)</onclick>
+                        </include>
+                        
+                        <include content="Object_IconicButton">
+                            <param name="id" value="3003" />
                             <param name="groupid" value="9013" />
                             <param name="label" value="Stop" />
                             <param name="icon" value="special://skin/extras/icons/disabled.png" />
