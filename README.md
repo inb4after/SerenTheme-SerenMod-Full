@@ -26,7 +26,7 @@
 `Seren -> Tools > Open Settings Menu -> Theme Manager -> Interface > (themes section) Install Theme -> Web Location`
 
 And enter the following URL:
-https://www.github.com/inb4after/SerenTheme-SerenMod-Full/zipball/StillWatchingMod/
+https://www.github.com/inb4after/SerenTheme-SerenMod-Full/zipball/master/
 
 ------------
 
