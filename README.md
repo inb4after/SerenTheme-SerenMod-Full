@@ -25,11 +25,8 @@
 
 `Seren -> Tools > Open Settings Menu -> Theme Manager -> Interface > (themes section) Install Theme -> Web Location`
 
-And enter one of the following URL:
-http://bit.ly/serenmodfull
-or
-
-https://www.github.com/SerpentDrago/SerenTheme-SerenMod-Full/zipball/master/
+And enter the following URL:
+https://www.github.com/inb4after/SerenTheme-SerenMod-Full/zipball/SkipIntroMod/
 
 ------------
 
@@ -44,4 +41,3 @@ You can also download the `.zip` file directly from the same URL, and install it
 
 
 *The creator of this theme is not affiliated with Seren, Arctic Zephyr 2, or Kodi.*
-
