@@ -79,7 +79,7 @@
                     <control type="label">
                         <height>30</height>
                         <font>font_title_small</font>
-                        <label>Are you still watching?[COLOR $VAR[ColorHighlight]]...[/COLOR]</label>
+                        <label>Are you still [COLOR $VAR[ColorHighlight]]watching[/COLOR] ?...</label>
                         <textcolor>panel_fg_100</textcolor>
                         <visible>true</visible>
                     </control>
@@ -157,7 +157,7 @@
                             <param name="id" value="3002" />
                             <param name="groupid" value="9011" />
                             <param name="label" value="Continue Watching" />
-                            <param name="icon" value="special://skin/extras/icons/enabled.png" />
+                            <param name="icon" value="special://skin/extras/icons/eye.png" />
                             <param name="visible" value="true" />
                             <onclick>SendClick(3012)</onclick>
                         </include>
