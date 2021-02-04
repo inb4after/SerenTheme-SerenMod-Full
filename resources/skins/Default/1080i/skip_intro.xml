@@ -79,7 +79,7 @@
                     <control type="label">
                         <height>30</height>
                         <font>font_title_small</font>
-                        <label>Skip intro?[COLOR $VAR[ColorHighlight]]...[/COLOR]</label>
+                        <label>Would you like to [COLOR $VAR[ColorHighlight]]skip[/COLOR] the intro?...</label>
                         <textcolor>panel_fg_100</textcolor>
                         <visible>true</visible>
                     </control>
