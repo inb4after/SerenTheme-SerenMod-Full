@@ -79,7 +79,7 @@
                     <control type="label">
                         <height>30</height>
                         <font>font_title_small</font>
-                        <label>Are you still [COLOR $VAR[ColorHighlight]]watching[/COLOR] ?...</label>
+                        <label>Are you still [COLOR $VAR[ColorHighlight]]watching[/COLOR]?...</label>
                         <textcolor>panel_fg_100</textcolor>
                         <visible>true</visible>
                     </control>
